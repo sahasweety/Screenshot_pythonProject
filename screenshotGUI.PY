@@ -4,7 +4,7 @@ import tkinter as tk
 
 def screenshot():
     name = int(round(time.time() * 1000))
-    name = 'C:/Users/Aaditya/OneDrive/Desktop/Python/python/.ipynb_checkpoints/screenshot data{}.png'.format(name)
+    name = 'C:/Users/Aaditya/OneDrive/Desktop/Python/python/screenshot data/{}.png'.format(name)
     img = pyautogui.screenshot(name)
     img.show()
 
